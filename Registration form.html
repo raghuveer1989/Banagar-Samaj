@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<div style="background-color: pink"> 
+<h1 style="text-align:center"> JOIN BANAGAR SAMAJ </h1>
+</div>
+<h2>Registration Form</h2>
+
+<form action="/action_page.php" target="_blank" method="post"> 
+  <fieldset>
+    <legend>Personal information:</legend>
+  <label for="fname" width="50">First name:</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Father name:</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Sir name (Family name):</label>
+  <input type="text" id="lname" name="lname">
+ <br>
+<hr>	
+  
+    <input type="radio" id="male" name="gender" value="male">
+  <label for="male"> Male </label>
+   <input type="radio" id="female" name="gender" value="female">
+  <label for="female"> Female </label>
+    <input type="radio" id="other" name="gender" value="other">
+  <label for="other"> Other </label>
+  <br>
+  <hr>
+    <label for="Location">Choose Location:</label>
+  <select id="Location" name="Location">
+    <option value="Bangalore">Bangalore</option>
+    <option value="Vijayapur">Vijayapur</option>
+    <option value="Hubli">Hubli</option>
+    <option value="Kalaburgi">Kalaburgi</option>
+  </select>
+  <hr>
+     <label for="Location">Working as:</label>
+    <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Professional">
+    <option value="Business">
+    <option value="Home maid">
+    <option value="Sudent">
+    <option value="Um employeed">
+  </datalist>
+  <hr>
+    <label for="Location">Age:</label>
+  <input type="number" id="b" name="b" value="50">
+  
+  
+  <hr>
+ 
+  
+    <textarea name="message" rows="4" cols="160" input="text" style="background-color:orange"> Write your comment</textarea>
+	<hr>
+	 <input type="submit" value="Submit">
+  <br><br>
+  </fieldset>
+</form>
+
+</body>
+</html>
